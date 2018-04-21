@@ -1,0 +1,34 @@
+src/*.exe
+src/kazukoin
+src/kazukoind
+src/test_kazukoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.kazukoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+kazukoin-qt
+Kazukoin-Qt.app
+
+# Unit-tests
+Makefile.test
+kazukoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
